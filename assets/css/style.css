@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  color: darkblue;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 1rem 2rem;
+
+  align-items: center;
+  box-shadow: 0 2px 8px 0 gray;
+}
+
+.nav-items {
+  flex: 1;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-items > a {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+  font-size: 1.1rem;
+}
+
+.login-signup {
+  border: 1px solid darkblue;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+}
+
+.login-signup:hover {
+  background-color: darkblue;
+  color: white;
+  border-color: darkblue;
+}
+
+header {
+  background-image: url(../images/Naha_Okinawa_Japan_Shuri-Castle.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10rem 0;
+  background-attachment: fixed;
+}
+
+.header-msg {
+  margin: 0 auto;
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.header-msg_one {
+  position: relative;
+}
+
+.header-msg_one > img {
+  position: absolute;
+  width: 3.5rem;
+  top: 0.25rem;
+  right: 3rem;
+}
+
+.big-font {
+  font-size: 3rem;
+}
+
+.text-center {
+  text-align: center;
+}
